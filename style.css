@@ -1,0 +1,119 @@
+body{
+    background: url("./img/background.jpg");
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #626262;
+    letter-spacing: 0em;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.logo img{
+    display: flex;
+    margin: auto;
+    height: 100px;
+    padding: 10px 10px 10px 10px;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    border-width: 10px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black; 
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header nav a {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    transition: color 0.3s ease 0s;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+header nav a .link{
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+header nav a:hover {
+    color: #0597f2;
+}
+
+main{
+    margin-top: 20px;
+}
+
+section {
+    margin: 20px 20px 20px 20px; 
+    border-radius: 8px 8px 8px 8px; 
+    padding-bottom: 10px;
+}
+
+.home{
+    margin: 0;
+    display: flex;
+}
+
+.home img{
+    max-height: 30%;
+    max-width: 30%;
+    margin: auto;
+    border-radius: 8px 8px 8px 8px;
+    display: flex;
+    justify-content: center;
+    position: center;
+}
+
+.labels{
+    margin: auto;
+    border-radius: 8px 8px 8px 8px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    position: center;
+    justify-content: space-around;
+    font-size: 16px;
+    color: white;
+}
+
+footer{
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    
+}
+
+button{
+    background: url("./img/background.jpg");
+    border: radial-gradient(rgba(67, 226, 4, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+    border-style: inset;
+    color: white;
+    padding: 10px 32px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;  
+    border-radius: 8px 8px 8px 8px;
+
+}
+
